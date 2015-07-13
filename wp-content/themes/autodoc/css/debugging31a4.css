@@ -1,0 +1,55 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* Debugged CSS  */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*06.05.2015*/
+
+html .page-header {
+	margin: 0 0 50px 0px;
+}
+/*07.05.2015*/
+
+body {
+	background: #f5f5f5;
+}
+.layout-theme {
+	background: #fff;
+}
+
+@media only screen and (min-width : 1000px) {
+.layout-boxed {
+	background: #fff;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+}
+.pix-header2 .page-theme-section .col-lg-6 {
+	display: none !important;
+}
+.layout-boxed .box-border-left:after {
+	display: none !important;
+}
+
+
+/*18.05*/
+
+.scroll-top-view {
+    opacity: 1 !important;
+}
+.scroll-top {
+    background: #ebecee none repeat scroll 0 0;
+    bottom: 2%;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 0;
+    padding: 6px;
+    position: fixed;
+    right: 2%;
+	left:auto !important;
+    text-align: center;
+    text-decoration: none !important;
+    width: 38px;
+}
